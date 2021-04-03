@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Leits`,
+    siteTitleAlt: `leits.me - personal site`,
+    siteHeadline: `leits.me - personal site`,
+    siteDescription: `leits.me - personal site`,
+    siteUrl: `https://leits.me`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@leits.dev`,
   },
   plugins: [
     {
@@ -26,11 +33,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/leits_dev`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `GitHub`,
+            url: `https://github.com/leits`,
           },
         ],
       },
@@ -45,9 +52,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
+        name: `leits.me`,
         short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `Leits' personal site`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,

@@ -12,7 +12,7 @@ module.exports = {
     siteDescription: `leits.me - personal site`,
     siteUrl: `https://leits.me`,
     siteLanguage: `en`,
-    siteImage: `/banner.png`,
+    siteImage: `/banner.jpg`,
     author: `@leits.dev`,
   },
   plugins: [

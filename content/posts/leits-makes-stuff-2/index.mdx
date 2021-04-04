@@ -8,7 +8,7 @@ tags:
 ---
 
 The [previous issue](../leits-makes-stuff-1) was about the idea and scoping of Proof Of Concept. And now it's time to implement it! Below I will tell you how I came from nothing to this:
-![diagram](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s3fv9f1q0kur1budkyxr.png)
+![flow](./flow.png)
 
 One of the most important things for PoС is the speed of implementation, so I decided to use boring technologies that I’m familiar with.
 
@@ -38,7 +38,7 @@ Stopped at [altair](https://github.com/altair-viz/altair), its result from the b
 
 Fortunately, I found a chart generator in [pandas](https://github.com/pandas-dev/pandas) (a library for data analysis) that uses matplotlib under the hood. Working with it is very simple: create a table, add data, and plot lines.
 
-![Views chart](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kipic2lkqfbqm6y67hq2.png)
+![Views chart](./views.png)
 
 I redirected the chart output to the buffer using built-in [bytesIO](https://docs.python.org/3/library/io.html#io.BytesIO), thus avoiding writing then reading from disk.
 
@@ -78,7 +78,7 @@ The built-in [email.mime](https://docs.python.org/3/library/email.mime.html) han
 
 Well, the script works, so let’s make it run automatically. Following reliable "boring" technologies, I took [Heroku](https://www.heroku.com). For the current solution, a free instance and Heroku Scheduler are enough to run the script at a certain time.
 
-![email](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/swzy7pc97cxr8io6tdqu.png)
+![email](./email.png)
 
 ### So,
 

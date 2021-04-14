@@ -6,14 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `leits`,
-    siteTitleAlt: `leits.me - personal site`,
-    siteHeadline: `leits.me - personal site`,
-    siteDescription: `leits.me - personal site`,
+    siteTitle: `Andrii Leitsius`,
+    siteTitleAlt: `Andrii Leitsius`,
+    siteHeadline: `Andrii Leitsius`,
+    siteDescription: `I'm leits, an engineering manager with solid background as python engineer. Outside of my work, I'm creating MeetingBar and OhMyCode. I build stuff in public and make it open-source. Along the way, I learn a lot of new things, which I share here.`,
     siteUrl: `https://leits.me`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@leits.dev`,
+    author: `@leits_dev`,
   },
   plugins: [
     {

@@ -73,5 +73,5 @@ theme = "hugo-theme-shell"
   files = [
     ["meetingbar", "https://meetingbar.leits.me"],
     ["ohmycode", "https:/ohmycode.cc"],
-    ["coffee", "https://coffee.leits.me"],
+    ["leits brew", "https://brew.leits.me"],
   ]

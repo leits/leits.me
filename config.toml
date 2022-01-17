@@ -61,9 +61,9 @@ theme = "hugo-theme-shell"
   use = true
   folderName = "links"
   files = [
-    ["github", "https://meetingbar.leits.me"],
-    ["twitter", "https:/ohmycode.cc"],
-    ["telegram", "https:/t.me/leits"],
+    ["github", "https://github.com/leits"],
+    ["twitter", "https://twitter.com/leits_dev"],
+    ["telegram", "https://t.me/leits"],
   ]
 
 
@@ -72,6 +72,6 @@ theme = "hugo-theme-shell"
   folderName = "projects"
   files = [
     ["meetingbar", "https://meetingbar.leits.me"],
-    ["ohmycode", "https:/ohmycode.cc"],
+    ["ohmycode", "https://ohmycode.cc"],
     ["leits brew", "https://brew.leits.me"],
   ]

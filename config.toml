@@ -71,7 +71,7 @@ theme = "hugo-theme-shell"
   use = true
   folderName = "projects"
   files = [
-    ["meetingbar", "https://meetingbar.leits.me"],
-    ["ohmycode", "https://ohmycode.cc"],
-    ["leits brew", "https://brew.leits.me"],
+    ["MeetingBar", "https://meetingbar.app"],
+    ["ohmycode [closed]", "https://ohmycode.cc"],
+    ["Filter, please (Ukrainian coffee roasters)", "https://filterpls.com"],
   ]
